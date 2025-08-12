@@ -24,9 +24,7 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 - **Description:** Identifies devices vulnerable to a specific CVE in MDE’s `DeviceTvmSoftwareVulnerabilities` table, summarizing by device name, ID, operating system, and software details.
 - **Query:**
   ```kql
-  DeviceTvmSoftwareVulnerabilities
-  | where CveId in ("<CVE-ID>")
-  | summarize by DeviceName, DeviceId, strcat(OSPlatform, " ", OSVersion), SoftwareName, SoftwareVersion
+  DeviceTvmSoftwareVulnerabilities| where CveId in ("<CVE-ID>")| summarize by DeviceName, DeviceId, strcat(OSPlatform, " ", OSVersion), SoftwareName, SoftwareVersion
   ```
 
 ### Purpose
