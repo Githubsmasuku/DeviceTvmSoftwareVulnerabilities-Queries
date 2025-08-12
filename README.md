@@ -46,8 +46,8 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 ### Expected Output
 | DeviceName | DeviceId | OSPlatform_OSVersion | SoftwareName | SoftwareVersion |
 |------------|----------|---------------------|--------------|-----------------|
-| PC Name     | 12345    | Windows 10/11      | All          | All         |
-| Server Name | 67890    | Windows Server All | All          | All         |
+| PC Name     | *    | Windows 10/11       | All           | All         |
+| Server Name | *    | Windows Server All  | All           | All         |
 
 *Note:* Results depend on the organization’s environment and the specified CVE. Export as CSV/JSON for reporting or SIEM integration.
 
