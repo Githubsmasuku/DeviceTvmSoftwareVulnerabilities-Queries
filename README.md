@@ -15,7 +15,7 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 │   └── device-vulnerabilities-cve.kql  # Query for a specific CVE
 ├── docs/                             # Detailed documentation
 ├── results/                          # Sample (anonymized) query outputs
-├── scripts/                          # Future automation scripts (Microsoft Copilot)
+├── scripts/                          # Future automation scripts (Powershell and Python)
 └── .gitignore                        # Excludes sensitive files
 ```
 
