@@ -5,7 +5,7 @@ This repository contains Kusto Query Language (KQL) queries for analyzing softwa
 
 **Purpose:** To provide reusable, well-documented KQL queries for vulnerability management, showcasing expertise in MDE, cloud security, and compliance with South African regulations like the Protection of Personal Information Act (POPIA).
 
-**Author:** [Your Name], a South African cybersecurity professional with 9 years of experience and certifications including CompTIA Security+, CISSP, and Microsoft AZ-500. Connect via [LinkedIn Profile].
+**Author:** [Sihle Masuku], a South African cybersecurity professional with 9 years of experience and certifications including CompTIA Security+, SecurityX, and Microsoft AZ-500 in progress. Connect via [https://www.linkedin.com/in/sihle-masuku-securityx-411b0416b/].
 
 ## Repository Structure
 ```
@@ -15,7 +15,7 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 │   └── device-vulnerabilities-cve.kql  # Query for a specific CVE
 ├── docs/                             # Detailed documentation
 ├── results/                          # Sample (anonymized) query outputs
-├── scripts/                          # Future automation scripts (e.g., Python, PowerShell)
+├── scripts/                          # Future automation scripts (Microsoft Copilot)
 └── .gitignore                        # Excludes sensitive files
 ```
 
@@ -46,8 +46,8 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 ### Expected Output
 | DeviceName | DeviceId | OSPlatform_OSVersion | SoftwareName | SoftwareVersion |
 |------------|----------|---------------------|--------------|-----------------|
-| PC-001     | 12345    | Windows 10/11      | All          | All         |
-| Server-007 | 67890    | Windows Server All | All          | All         |
+| PC Name     | 12345    | Windows 10/11      | All          | All         |
+| Server Name | 67890    | Windows Server All | All          | All         |
 
 *Note:* Results depend on the organization’s environment and the specified CVE. Export as CSV/JSON for reporting or SIEM integration.
 
