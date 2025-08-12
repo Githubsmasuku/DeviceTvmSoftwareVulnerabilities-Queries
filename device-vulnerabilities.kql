@@ -1,0 +1,1 @@
+DeviceTvmSoftwareVulnerabilities| where CveId in ("CVE")| summarize by DeviceName, DeviceId, strcat(OSPlatform, " ", OSVersion), SoftwareName, SoftwareVersion
