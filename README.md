@@ -5,7 +5,8 @@ This repository contains Kusto Query Language (KQL) queries for analyzing softwa
 
 **Purpose:** To provide reusable, well-documented KQL queries for vulnerability management, showcasing expertise in MDE, cloud security, and compliance with South African regulations like the Protection of Personal Information Act (POPIA).
 
-**Author:** [Sihle Masuku], a South African cybersecurity professional with 9 years of experience and certifications including CompTIA Security+, SecurityX, and Microsoft AZ-500 in progress. Connect via [https://www.linkedin.com/in/sihle-masuku-securityx-411b0416b/].
+**Author:** Sihle Masuku, a South African cybersecurity professional with 9 years Technical experience with 4 years Cybersecurity experience. My [DeviceTvmSoftwareVulnerabilities.docx](https://github.com/user-attachments/files/21734606/DeviceTvmSoftwareVulnerabilities.docx)
+certifications including CCNA (Switching and Routing),CompTIA Security+, SecurityX, and Microsoft AZ-500 in progress. Connect via [https://www.linkedin.com/in/sihle-masuku-securityx-411b0416b/].
 
 ## Repository Structure
 ```
@@ -63,33 +64,3 @@ DeviceTvmSoftwareVulnerabilities-Queries/
    - Escalate high-risk findings to the incident response team.
 4. **Export:** Save results as CSV for stakeholder reports or JSON for integration with tools like Azure Sentinel.
 5. **South Africa Context:** Save queries locally to mitigate loadshedding disruptions; use GitHub’s mobile app (iOS/Android) for updates during power outages.
-
-## Getting Started
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/DeviceTvmSoftwareVulnerabilities-Queries.git
-   ```
-2. **Navigate to Query:** Open `queries/device-vulnerabilities-cve.kql` in a text editor.
-3. **Customize:** Replace `<CVE-ID>` with the desired CVE identifier.
-4. **Run in MDE:** Copy-paste into AHQ and execute.
-5. **Contribute:** Add new queries or scripts via pull requests.
-
-## Future Enhancements
-- **Automation:** Develop Python or PowerShell scripts in `scripts/` to automate query execution via MDE APIs, streamlining recurring vulnerability checks.
-- **Additional Queries:** Expand to include queries for other CVEs, unpatched systems, or end-of-life software.
-- **Visualization:** Integrate with Power BI or Azure Dashboards for graphical vulnerability trends.
-- **Compliance:** Map outputs to South African regulations (e.g., POPIA, Cybercrimes Act) to support audit requirements for organizations like the State Security Agency.
-
-## Target Audience
-- **SOC Analysts:** For daily vulnerability monitoring in high-demand sectors like finance and telecom.
-- **Incident Responders:** To prioritize remediation of critical CVEs.
-- **Compliance Teams:** To ensure alignment with South Africa’s regulatory frameworks.
-- **Hiring Managers:** Demonstrates proficiency in KQL, MDE, and vulnerability management, relevant for roles in Johannesburg, Cape Town, or remote positions with international firms.
-
-## Notes
-- **Data Sensitivity:** Anonymize results in `results/` to comply with organizational policies and POPIA.
-- **South Africa Context:** Designed for accessibility despite loadshedding; use offline tools (e.g., VS Code) and GitHub’s web interface for updates.
-- **Feedback:** Submit suggestions via GitHub Issues or contact [https://www.linkedin.com/in/sihle-masuku-securityx-411b0416b/] on LinkedIn.
-
-## Acknowledgments
-Built with insights from South Africa’s cybersecurity community, including ISACA SA and Absa Cybersecurity Academy, to address local challenges like skills shortages and compliance with the Cybercrimes Act.
