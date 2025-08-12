@@ -47,8 +47,8 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 ### Expected Output
 | DeviceName | DeviceId | OSPlatform_OSVersion | SoftwareName | SoftwareVersion |
 |------------|----------|---------------------|--------------|-----------------|
-| PC Name     | *    | Windows 10/11       | All           | All         |
-| Server Name | *    | Windows Server All  | All           | All         |
+| PC Name     | *    | Windows 10/11       | Any          | Any        |
+| Server Name | *    | Windows Server Any  | Any          | Any        |
 
 *Note:* Results depend on the organization’s environment and the specified CVE. Export as CSV/JSON for reporting or SIEM integration.
 
@@ -64,3 +64,35 @@ DeviceTvmSoftwareVulnerabilities-Queries/
    - Escalate high-risk findings to the incident response team.
 4. **Export:** Save results as CSV for stakeholder reports or JSON for integration with tools like Azure Sentinel.
 5. **South Africa Context:** Save queries locally to mitigate loadshedding disruptions; use GitHub’s mobile app (iOS/Android) for updates during power outages.
+   
+## Getting Started
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/DeviceTvmSoftwareVulnerabilities-Queries.git
+   ```
+2. **Navigate to Query:** Open `queries/device-vulnerabilities-cve.kql` in a text editor.
+3. **Customize:** Replace `<CVE-ID>` with the desired CVE identifier.
+4. **Run in MDE:** Copy-paste into AHQ and execute.
+5. **Contribute:** Add new queries or scripts via pull requests.
+
+## Future Enhancements
+- **Automation:** Develop Python or PowerShell scripts in `scripts/` to automate query execution via MDE APIs, streamlining recurring vulnerability checks.
+- **Additional Queries:** Expand to include queries for other CVEs, unpatched systems, or end-of-life software.
+- **Visualization:** Integrate with Power BI or Azure Dashboards for graphical vulnerability trends.
+- **Compliance:** Map outputs to South African regulations (e.g., POPIA, Cybercrimes Act) to support audit requirements for organizations like the State Security Agency.
+
+## Target Audience
+- **SOC Analysts:** For daily vulnerability monitoring in high-demand sectors like finance and telecom.
+- **Incident Responders:** To prioritize remediation of critical CVEs.
+- **Compliance Teams:** To ensure alignment with South Africa’s regulatory frameworks.
+- **Hiring Managers:** Demonstrates proficiency in KQL, MDE, and vulnerability management, relevant for roles in Johannesburg, Cape Town, or remote positions with international firms.
+
+## Notes
+- **Data Sensitivity:** Anonymize results in `results/` to comply with organizational policies and POPIA.
+- **South Africa Context:** Designed for accessibility despite loadshedding; use offline tools (e.g., VS Code) and GitHub’s web interface for updates.
+- **Feedback:** Submit suggestions via GitHub Issues or contact [https://www.linkedin.com/in/sihle-masuku-securityx-411b0416b/] on LinkedIn.
+
+## Acknowledgments
+Built with insights from South Africa’s cybersecurity community, including ISACA SA and Absa Cybersecurity Academy, to address local challenges like skills shortages and compliance with the Cybercrimes Act.
+
+
