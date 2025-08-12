@@ -89,7 +89,7 @@ DeviceTvmSoftwareVulnerabilities-Queries/
 ## Notes
 - **Data Sensitivity:** Anonymize results in `results/` to comply with organizational policies and POPIA.
 - **South Africa Context:** Designed for accessibility despite loadshedding; use offline tools (e.g., VS Code) and GitHub’s web interface for updates.
-- **Feedback:** Submit suggestions via GitHub Issues or contact [Your Name] on LinkedIn.
+- **Feedback:** Submit suggestions via GitHub Issues or contact [https://www.linkedin.com/in/sihle-masuku-securityx-411b0416b/] on LinkedIn.
 
 ## Acknowledgments
 Built with insights from South Africa’s cybersecurity community, including ISACA SA and Absa Cybersecurity Academy, to address local challenges like skills shortages and compliance with the Cybercrimes Act.
